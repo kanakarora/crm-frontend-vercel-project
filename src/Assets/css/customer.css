@@ -1,0 +1,9 @@
+@media screen and (max-width:1000px) {
+    .edit-menu {
+        position: absolute;
+        right: 10px;
+        top: 73px;
+        background-color: white;
+
+    } 
+}

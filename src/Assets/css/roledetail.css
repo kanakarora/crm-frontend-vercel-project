@@ -1,0 +1,592 @@
+.search-icon{
+    font-size: 17px !important;
+    top: 16px;
+    position: absolute
+    ;
+}
+.refresh{
+    padding: 9px;
+    font-size: 42px !important;
+} 
+
+.table-section{
+    /* width: 1030px;
+    overflow: scroll; */
+}
+.table-section tbody td{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.table-section thead th{
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 24px;
+    /* border-right: 1px solid #DBDBDB; */
+    background: #ededed !important;
+}
+.table-section 
+table{
+    border-collapse: unset;
+}
+
+.table-body-set label{
+    position: relative;
+    top: -2px;
+}
+
+.table-body-set input{
+    padding: 3px;
+    height: 12px;
+    width: 12px;
+}
+
+.first-btn{
+    border-radius: 10px;
+    border: 1px solid #27004a;
+    height: 44px;
+    padding: 0px 20px;
+    color: #27004a;
+    transition: all 0.3s linear;
+}
+.first-btn:hover{
+    background: #27004a;
+    color: white;
+}
+.second-btn{
+    border-radius: 10px;
+    background:  #27004a;
+    padding: 0px 20px;
+    color: white;
+    height: 44px;
+    transition: all 0.3s linear;
+    border: 1px solid #27004a  ;
+    white-space: nowrap;
+
+    
+}
+.second-btn:hover{
+    background: none;
+    border: 1px solid #27004a;
+    color: #27004a;;
+
+}
+
+*{
+    font-family: 'Poppins';}
+
+
+    
+.tab-section .react-tabs .react-tabs__tab--selected{
+    border-bottom: 1px solid #27004a !important;
+    background: #27004a;
+    border-radius: 7px;
+}
+.tab-section .react-tabs .react-tabs__tab--selected h2{
+    color: white;
+}
+    
+.tab-section .react-tabs{
+    cursor: pointer;
+    padding: 1px;
+}
+.tab-section .react-tabs .react-tabs__tab--selected:focus-visible{
+    outline: none;
+    border-bottom: 1px solid #511992;
+    padding-bottom: 0px;
+}
+.tab-section .react-tabs .react-tabs__tab{
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0px;
+    padding: 10px 6px 7px 6px;
+
+}
+.payroll-menus .react-tabs__tab{
+    padding: 7px 6px 7px 6px !important;
+
+}
+ 
+.tab-section .react-tabs ::-webkit-scrollbar {
+    width: 2px;
+    height: 4px;
+    display: none;
+}
+    
+.table-timing tbody tr::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+  }
+/* 
+  .table-timing tbody tr:hover td{
+    background: red;
+  } */
+
+ .table-timing tbody tr::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+    
+
+.tab-section .react-tabs ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+                    
+.tab-section .react-tabs ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+.sheet-icon{
+    color: white;
+    background: #27004a;
+    border-radius: 5px;
+    padding: 3px;
+}
+.get-icon{
+    transition: all 0.3s linear !important;
+}
+.staff-icon{
+    color: #b1b1b1;
+    height: 20px;
+}
+.react-tabs__tab--selected .staff-icon{
+    color: white !important;
+}
+
+@media screen and (max-width:992px){
+    .sidebar {
+         left: -300px;
+        position: absolute;
+        top: 63px;
+        border-radius: 0px 10px 10px 0px;
+     }
+    .custom-body-class .sidebar{
+        left: 0 !important;
+        z-index: 999 !important;
+
+    }
+}
+
+.sidebar{
+    transition: all 0.3s linear;
+    height: auto;
+    min-height: 100vh;
+    left: -100%;
+}
+
+.custom-body-class .admin-sidebar-set{
+    width: 100%;
+}
+.custom-body-class .navbar{
+    padding-left: 10px;
+}
+
+/* .set-z{
+    z-index:-1;
+} */
+ .ReactModal__Overlay{
+    z-index: 22;
+ }
+
+.custom-body-class .sidebar{
+    left: -300px;
+    z-index: -1111;
+    position: absolute;
+    
+}
+
+ .cancel-icon{
+    display: none !important;
+ }
+ .custom-body-class .cancel-icon{
+    display: block !important;
+ }
+ .custom-body-class .menu-icon{
+    display: none;
+ }
+ 
+
+@media screen and (max-width:576px){
+    .search-icon{
+        top: 15px;
+    }
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=radio]{
+        accent-color: #8A25B0;
+   }
+
+
+.table-timing tbody tr td{
+    padding: 5px 0px;
+    font-size: 13px;
+   }
+
+   .modal-field{
+    height: 400px;
+    overflow: scroll;
+   }
+
+   /* .fixed-tab-section .react-tabs__tab--selected input{
+        accent-color: red;
+   } */
+   
+.tabs-attendance .react-tabs .react-tabs__tab--selected{
+    border-radius: 10px;
+     padding: 0px 20px;
+    color: white;
+    height: 44px;
+    transition: all 0.3s linear;
+    border: 1px solid #27004a;
+    white-space: nowrap;
+    display: flex;
+    background: white !important;
+    color: #27004a !important;
+}
+
+.tabs-attendance .react-tabs .react-tabs__tab{
+    border-radius: 10px;
+    background: #27004a;
+    padding: 0px 20px;
+    color: white;
+    height: 44px;
+    transition: all 0.3s linear;
+    border: 1px solid #27004a;
+    white-space: nowrap;
+    display: flex;
+}
+.add-icon{
+    /* font-size: 16px !important; */
+}
+
+.arrow-icon{
+    font-weight: 500;
+}
+.field-modal{
+    height: 100% !important;
+}
+.sidelinks .active{
+    background-color: #f0f8fd;
+    border-radius: 10px;
+    color: #27004a;
+}
+
+.edit-sidebar{
+    transition: all 0.3s linear;
+}
+.toggle-btn-side{
+    display: none;
+}
+.close-icon{
+    display: none !important; 
+    transition: all 0.3s linear;
+}
+.editsidebar .close-icon{
+    display: block !important;
+}
+.editsidebar .menu-icon{
+    display: none;
+    transition: all 0.3s linear;
+}
+/* .ReactModal__Content {
+    transform:rotateY(75deg);
+    transition: all 0.3s linear;
+}
+.ReactModal__Body--open .ReactModal__Content{
+    transform:rotateY(0deg);
+} */
+.calender-icon{
+    color: #27004a;
+    background: #f1efef;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 29px !important;
+}
+
+.arrow-icon-back{
+    color: #8A25B0;
+    cursor: pointer;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+}
+.user-img img{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.user-img img:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 5px #6b6868;
+    
+}
+.day-table{
+    /* border: 1px solid red; */
+}
+.day-table thead th{
+    font-weight: 400; 
+     padding: 10px 0px;
+    color: rgb(22, 21, 21);;
+    padding-right: 10px;
+    padding-bottom: 0;
+    white-space: nowrap;
+}
+.day-table thead th:last-child{
+    border-bottom: none;
+}
+.day-table thead{
+    display: flex;
+    flex-direction: column;
+     border-right: 1px solid #dfd1d1;
+}
+.day-table tbody tr{
+    border-bottom: 1px solid #dfd1d1;
+    width: 100%;
+}
+.day-table tbody tr {
+    height: 35px;
+}
+.day-table tbody tr td {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: -5px;
+}
+.day-table tbody tr td a{
+    display: block;
+    height: 100%;
+}
+.weekly-table tbody tr td{
+    width: 150px;
+    border-right: 1px solid #dfd1d1;
+
+}
+.set-shadow{
+    box-shadow: 0px 1px 4px 0px rgba(10,1,10,0.16);
+}
+.arrow-icon-sidebar{
+    font-size: 14px !important;
+}
+.new-shadow{
+    box-shadow: 0px 0px 5px #d0d0d0;
+}
+
+
+
+
+.table-status thead th{
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 12px;
+}
+.table-status tbody td{
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+}
+.main-table-status{
+    overflow: scroll;
+}
+
+.stdropdown-container{
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    /* display: flex; */
+    font-size: 10px;
+    position: relative;
+ 
+}
+.stsearch-box{
+    display: flex;
+    padding: 5px;
+}
+.stsearch-box input:focus{
+    outline: none;
+}
+.stdropdown-menu{
+    position: absolute;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    z-index: 99;
+    background: white;
+    top: 35px;
+    height: 115px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+    .edit-sidebar{
+        left: -300px;
+        
+    }
+    .toggle-btn-side{
+        display: block;
+    }
+
+    .editsidebar .edit-sidebar{
+        left: 0px;
+    }
+}
+
+
+
+
+.total-staff-salary{
+    border-right: 1px solid #cec6c6 !important;
+     padding-right: 15px;
+
+ }
+
+
+ .calender-div table thead button {
+        width: 155px;
+        text-align: center; 
+        border-right: 1px solid #eae8e8;
+        padding: 30px ;
+        align-items: center;
+       
+ }
+
+ .calender-div table tbody button {
+    width: 155px;
+    text-align: center; 
+    border-right: 1px solid #eae8e8;
+    padding: 30px ;
+    align-items: center;
+   
+}
+
+.calender-div table tbody button p{
+    font-size: 12px;
+}
+.calender-div table tbody td{
+    padding: 0;
+    border-top: 1px solid #dddddd;
+}
+
+ .calender-div table thead button:last-child {
+    border-right: none;
+}
+
+
+.calender-div table tbody td:last-child button {
+    border-right: none;
+}
+.calender-div table thead button th{
+    font-weight: 500;
+    color: grey;
+    font-size: 13px;
+}
+
+
+.calender-div table thead a td{
+    font-size: 12px;
+}
+.calender-icon-tab{
+    color: #8A25B0;
+}
+.calender .react-tabs .react-tabs__tab--selected svg{
+        background: #dddddd;
+        border-radius: 3px;
+        padding: 3px;
+}
+.event-modal .react-tabs .react-tabs__tab{
+    padding: 5px 20px;
+    border: 1px solid #8A25B0;
+    color: #8A25B0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sell-icon{
+    font-size: 17px !important;
+}
+.tag-input{
+    border-left: 1px dashed black;
+    padding-left: 4px;
+}
+
+.plus-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.event-modal .react-tabs .react-tabs__tab--selected{
+    background: #8A25B0;
+    color: white;
+}
+
+.arrow-down{
+    font-size: 14px !important;
+}
+.filter-icon{
+    font-weight: normal;
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.upload-icon{
+    font-size: 20px;
+}
+.warning-icon{
+    animation: moveup 3s linear  infinite alternate ;
+    font-size: 36px !important;
+}
+
+@keyframes moveup {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.4);
+    }
+}
+
+@media screen and (max-width:768px){
+    .total-staff-salary{
+        border-right: none !important;
+        padding-right: 0;
+    }
+}
+
+
+   @media(max-width:576px){
+    .first-btn{
+        height: 35px;
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    .second-btn{
+        height: 35px;
+        padding: 13px 24px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+   }
